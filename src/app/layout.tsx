@@ -15,86 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bloggin' with pandas",
   description: "Just little ol' me and my pandas",
-  icons: [
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "16x16",
-      url: "/favicon-16x16.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "32x32",
-      url: "/favicon-32x32.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/favicon-96x96.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-57x57.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-60x60.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-72x72.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-76x76.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-114x114.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-120x120.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-144x144.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-152x152.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-180x180.png",
-    },
-    {
-      rel: "apple-icon",
-      type: "image/png",
-      sizes: "96x96",
-      url: "/apple-icon-192x192.png",
-    },
-  ]
 };
 
 export default function RootLayout({
@@ -104,6 +24,99 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96x96.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-57x57.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-60x60.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-72x72.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-76x76.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-114x114.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-120x120.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-144x144.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-152x152.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-180x180.png"
+        />
+        <link
+          rel="apple-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-192x192.png"
+        />
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-192x192.png"
+        />
+        <link
+          rel="mask-icon"
+          type="image/png"
+          sizes="96x96"
+          href="/apple-icon-192x192.png"
+          color="#00000"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased  min-h-screen flex flex-col`}
       >

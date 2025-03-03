@@ -25,7 +25,7 @@ export default async function PostPage({
     : null;
 
   return (
-    <main className="container mx-auto max-w-3xl p-8 flex flex-col gap-4 flex-1">
+    <main className="container mx-auto max-w-3xl p-8 flex flex-col gap-4"  style={{flex: 1}}>
       <Link href="/" className="hover:underline">
         ← Back to posts
       </Link>
