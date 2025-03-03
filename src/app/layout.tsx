@@ -121,7 +121,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased  min-h-screen flex flex-col`}
       >
         <header className="container mx-auto p-8 flex-none">
-          <h1 className="text-4xl font-bold">Bloggin' with pandas</h1>
+          <h1 className="text-4xl font-bold">Bloggin&apos; with pandas</h1>
         </header>
           {children}
         <footer className="container mx-auto p-8 flex-none">
