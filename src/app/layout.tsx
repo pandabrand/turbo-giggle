@@ -29,91 +29,91 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/icons/favicon-16x16.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/icons/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="96x96"
-          href="/favicon-96x96.png"
+          href="/icons/favicon-96x96.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-57x57.png"
+          href="/icons/apple-icon-57x57.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-60x60.png"
+          href="/icons/apple-icon-60x60.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-72x72.png"
+          href="/icons/apple-icon-72x72.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-76x76.png"
+          href="/icons/apple-icon-76x76.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-114x114.png"
+          href="/icons/apple-icon-114x114.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-120x120.png"
+          href="/icons/apple-icon-120x120.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-144x144.png"
+          href="/icons/apple-icon-144x144.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-152x152.png"
+          href="/icons/apple-icon-152x152.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-180x180.png"
+          href="/icons/apple-icon-180x180.png"
         />
         <link
           rel="apple-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-192x192.png"
+          href="/icons/apple-icon-192x192.png"
         />
         <link
           rel="shortcut icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-192x192.png"
+          href="/icons/apple-icon-192x192.png"
         />
         <link
           rel="mask-icon"
           type="image/png"
           sizes="96x96"
-          href="/apple-icon-192x192.png"
+          href="/icons/apple-icon-192x192.png"
           color="#00000"
         />
       </head>
