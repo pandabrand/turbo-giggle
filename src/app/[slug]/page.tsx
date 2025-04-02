@@ -8,7 +8,7 @@ const POST_QUERY = `*[_type == "post" && slug.current == $slug][0]`;
 
 const options = { next: { revalidate: 30 } };
 
-export async function  generateMetadata({ params }: { params: { slug: string } } ) {
+export async function  generateMetadata({ params }: { params: Promise<{ slug: string }> } ) {
   const post = await client.fetch<SanityDocument>(POST_QUERY, await params, options);
   const metaImageUrl = post.mainImage
     ? urlForImage(post.mainImage)?.width(200).height(113).url()
