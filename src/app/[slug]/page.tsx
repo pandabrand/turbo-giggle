@@ -67,9 +67,8 @@ export default async function PostPage({
   let imgCount: number = 0
   await Promise.all(
     post.body.map(async (block: {
-      asset: any; _type: unknown; 
+      asset: {_ref: string, _type: string}; _type: unknown; 
 }, index: number) => {
-      console.log('bodyody', block)
       if (block._type === `image`) {
         imgCount++
         const embeddedImage = await client.fetch(`*[_type == "sanity.imageAsset" && _id == $ref][0]{
