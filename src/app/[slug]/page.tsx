@@ -95,7 +95,6 @@ export default async function PostPage({
     })
   )
 
-  // console.log('body', post.body)
   return (
       <main className="container mx-auto max-w-3xl p-8 flex flex-col gap-4"  style={{flex: 1}}>
         <Link href="/" className="hover:underline">
@@ -110,7 +109,6 @@ export default async function PostPage({
             alt={post.title}
             style={{width: `100%`, height: `auto`}}
           />
-          // <img src={mainImageUrl} alt={post.title} />
         }
         <h1 className="text-4xl font-bold mb-8">{post.title}</h1>
         <div className="prose">
